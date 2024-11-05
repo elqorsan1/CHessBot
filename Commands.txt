@@ -1,0 +1,15 @@
+python --version
+
+python –m pip install virtualenv
+
+python –m pip install --upgrade pip
+
+cd file location
+
+virtualenv .\.venv -p python
+
+.\.venv\Scripts\activate
+
+pip install –r requirements.txt
+
+python lichess-bot.py –u
